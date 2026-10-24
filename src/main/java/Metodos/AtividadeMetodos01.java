@@ -1,10 +1,6 @@
 package Metodos;
 
 
-import jdk.swing.interop.SwingInterOpUtils;
-
-
-
 // 1 — Na mesma classe do main (PRIMEIRA BOQUINHA), crie um método chamado mostrarBoasVindas()
 //  que imprime "Bem-vinda ao curso de Java!". Chame ele no main.
 // O método vai fora do main, mas dentro da classe, no mesmo nível do main,
@@ -16,6 +12,12 @@ import jdk.swing.interop.SwingInterOpUtils;
  public class AtividadeMetodos01 {
 
      public static void main(String[] args) {
-         Utilidades.mostrarBoasVindas();
+
+         mostrarBoasVindas();
      }
+
+     public static void mostrarBoasVindas() {
+         System.out.println(" Bem-vinda ao curso de Java!");
+     }
+
  }
